@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PrizeEffectSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<ns1:BounceBitmapLabel id="winCoinDropLab" font="winNumLarge_fnt" text="+101.1" verticalAlign="top" horizontalCenter="0" verticalCenter="0" letterSpacing="5" scaleX="1" scaleY="1" />
+</e:Skin>

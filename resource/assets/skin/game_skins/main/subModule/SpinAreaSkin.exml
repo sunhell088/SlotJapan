@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SpinAreaSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image id="gameBG" source="mainBG2_jpg" anchorOffsetY="0" verticalCenter="0" right="568"/>
+	<e:Image id="gameBG0" verticalCenter="0" source="mainBG2_jpg" anchorOffsetX="0" anchorOffsetY="0" scaleX="-1" left="568"/>
+	<e:Image id="spinBGImg" horizontalCenter="0.5" verticalCenter="-46.5" source="mainBG_png"/>
+	<e:Rect id="tempMask" height="456" fillAlpha="1" anchorOffsetX="0" anchorOffsetY="0" width="738" horizontalCenter="2" verticalCenter="-46" visible="false"/>
+	<e:Group id="spinGroup" width="795" height="487" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="30.5" verticalCenter="-30.5">
+		<e:layout>
+			<e:BasicLayout/>
+		</e:layout>
+	</e:Group>
+	<ns1:PrizeLineUICom id="prizeLineUICom" width="795" height="487" horizontalCenter="23.5" verticalCenter="-18.5">
+	</ns1:PrizeLineUICom>
+	<e:Image id="spinBorderImg" horizontalCenter="0.5" verticalCenter="-46.5" source="spinBorderBG_png"/>
+	<e:Image id="allWildMask" horizontalCenter="0.5" verticalCenter="-46.5" source="allWildMask_png" visible="false"/>
+	<e:Image source="flower_png" verticalCenter="-173" left="0"/>
+	<e:Image source="flower_png" verticalCenter="-173" y="10" scaleX="-1" right="0"/>
+</e:Skin>

@@ -1,0 +1,159 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Inteplay</title>
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="full-screen" content="true"/>
+    <meta name="screen-orientation" content="portrait"/>
+    <meta name="x5-fullscreen" content="true"/>
+    <meta name="360-fullscreen" content="true"/>
+    <style>
+        html, body {
+            -ms-touch-action: none;
+            background: #000000;
+            padding: 0;
+            border: 0;
+            margin: 0;
+            height: 100%;
+        }
+    </style>
+
+    <!--这个标签为通过egret提供的第三方库的方式生成的 javascript 文件。删除 modules_files 标签后，库文件加载列表将不会变化，请谨慎操作！-->
+    <!--modules_files_start-->
+	<script egret="lib" src="libs/modules/egret/egret.js"></script>
+	<script egret="lib" src="libs/modules/egret/egret.web.js"></script>
+	<script egret="lib" src="libs/modules/eui/eui.js"></script>
+	<script egret="lib" src="libs/modules/res/res.js"></script>
+	<script egret="lib" src="libs/modules/tween/tween.js"></script>
+	<script egret="lib" src="libs/modules/game/game.js"></script>
+	<script egret="lib" src="libs/modules/dragonBones/dragonBones.js"></script>
+	<script egret="lib" src="socket.io/bin/socket.io/socket.io.js"></script>
+	<script egret="lib" src="promise/promise.js"></script>
+	<script egret="lib" src="particle/bin/particle.js"></script>
+	<!--modules_files_end-->
+
+    <!--这个标签为不通过egret提供的第三方库的方式使用的 javascript 文件，请将这些文件放在libs下，但不要放在modules下面。-->
+    
+
+    <!--这个标签会被替换为项目中所有的 javascript 文件。删除 game_files 标签后，项目文件加载列表将不会变化，请谨慎操作！-->
+    <!--game_files_start-->
+	<script egret="lib" src="bin-debug/framework/mvc/Mediator.js"></script>
+	<script egret="lib" src="bin-debug/framework/observe/Observer.js"></script>
+	<script egret="lib" src="bin-debug/gameModule/common/component/BezierDisplayObject.js"></script>
+	<script egret="lib" src="bin-debug/gameModule/main/view/poolObject/common/SlotEffectPoolObject.js"></script>
+	<script egret="lib" src="bin-debug/gameModule/main/view/poolObject/common/SlotPoolObject.js"></script>
+	<script egret="lib" src="bin-debug/gameModule/main/view/poolObject/common/WinSlotParticlePoolObject.js"></script>
+	<script egret="lib" src="bin-debug/gameModule/main/view/component/SlotColumnUICom.js"></script>
+	<script egret="lib" src="bin-debug/const/SlotRhythmConst.js"></script>
+	<script egret="lib" src="bin-debug/const/SoundType.js"></script>
+	<script egret="lib" src="bin-debug/dataModel/Data.js"></script>
+	<script egret="lib" src="bin-debug/dataModel/GlobalProxy.js"></script>
+	<script egret="lib" src="bin-debug/egretAdapter/AssetAdapter.js"></script>
+	<script egret="lib" src="bin-debug/egretAdapter/ThemeAdapter.js"></script>
+	<script egret="lib" src="bin-debug/framework/manager/ObjectPoolManager.js"></script>
+	<script egret="lib" src="bin-debug/framework/manager/PoolObjectExample.js"></script>
+	<script egret="lib" src="bin-debug/framework/manager/SocketManager.js"></script>
+	<script egret="lib" src="bin-debug/framework/manager/SoundManager.js"></script>
+	<script egret="lib" src="bin-debug/framework/manager/ViewManager.js"></script>
+	<script egret="lib" src="bin-debug/framework/mvc/ICommand.js"></script>
+	<script egret="lib" src="bin-debug/framework/mvc/IGameUI.js"></script>
+	<script egret="lib" src="bin-debug/Game.js"></script>
+	<script egret="lib" src="bin-debug/const/CommonConst.js"></script>
+	<script egret="lib" src="bin-debug/framework/observe/ObserverManager.js"></script>
+	<script egret="lib" src="bin-debug/gameModule/bigWin/BigWinMediator.js"></script>
+	<script egret="lib" src="bin-debug/gameModule/bigWin/view/BigWinUI.js"></script>
+	<script egret="lib" src="bin-debug/gameModule/common/autoSpin/AutoSpinMediator.js"></script>
+	<script egret="lib" src="bin-debug/gameModule/common/autoSpin/view/AutoSpinUI.js"></script>
+	<script egret="lib" src="bin-debug/const/CommonUtil.js"></script>
+	<script egret="lib" src="bin-debug/gameModule/common/component/BounceBitmapLabel.js"></script>
+	<script egret="lib" src="bin-debug/gameModule/common/component/BounceLabel.js"></script>
+	<script egret="lib" src="bin-debug/gameModule/common/component/FlowHintUI.js"></script>
+	<script egret="lib" src="bin-debug/gameModule/common/component/GameAlertUI.js"></script>
+	<script egret="lib" src="bin-debug/gameModule/common/component/LoadingUI.js"></script>
+	<script egret="lib" src="bin-debug/gameModule/common/component/ModuleLoadingUI.js"></script>
+	<script egret="lib" src="bin-debug/gameModule/common/component/TopMessageUI.js"></script>
+	<script egret="lib" src="bin-debug/gameModule/common/graphics/GraphicsManager.js"></script>
+	<script egret="lib" src="bin-debug/gameModule/common/graphics/ShapePoolObject.js"></script>
+	<script egret="lib" src="bin-debug/gameModule/common/help/HelpMediator.js"></script>
+	<script egret="lib" src="bin-debug/gameModule/common/help/view/HelpUI.js"></script>
+	<script egret="lib" src="bin-debug/gameModule/common/setting/SettingUICom.js"></script>
+	<script egret="lib" src="bin-debug/gameModule/common/shader/ShaderManager.js"></script>
+	<script egret="lib" src="bin-debug/gameModule/common/SilentLoading/SilentLoadResManager.js"></script>
+	<script egret="lib" src="bin-debug/gameModule/freeGameSelect/FreeGameSelectMediator.js"></script>
+	<script egret="lib" src="bin-debug/gameModule/freeGameSelect/view/FreeGameSelectUI.js"></script>
+	<script egret="lib" src="bin-debug/gameModule/freeGameSelect/view/LotusUICom.js"></script>
+	<script egret="lib" src="bin-debug/gameModule/main/MainMediator.js"></script>
+	<script egret="lib" src="bin-debug/gameModule/main/view/MainUI.js"></script>
+	<script egret="lib" src="bin-debug/Main.js"></script>
+	<script egret="lib" src="bin-debug/gameModule/main/view/component/SlotResultData.js"></script>
+	<script egret="lib" src="bin-debug/gameModule/main/view/poolObject/ExplosionParticlePoolObject.js"></script>
+	<script egret="lib" src="bin-debug/gameModule/main/view/poolObject/RiseParticlePoolObject.js"></script>
+	<script egret="lib" src="bin-debug/gameModule/main/view/poolObject/SlotMysteryPoolObject.js"></script>
+	<script egret="lib" src="bin-debug/gameModule/main/view/poolObject/common/CoinPoolObject.js"></script>
+	<script egret="lib" src="bin-debug/gameModule/main/view/poolObject/common/ScatterSpeedParticlePoolObject.js"></script>
+	<script egret="lib" src="bin-debug/const/GameConst.js"></script>
+	<script egret="lib" src="bin-debug/const/GameUtil.js"></script>
+	<script egret="lib" src="bin-debug/gameModule/main/view/poolObject/common/SlotSurroundPoolObject.js"></script>
+	<script egret="lib" src="bin-debug/const/MessageUtil.js"></script>
+	<script egret="lib" src="bin-debug/gameModule/main/view/subModule/ControlSpinUICom.js"></script>
+	<script egret="lib" src="bin-debug/gameModule/main/view/subModule/FreeSpinResultUICom.js"></script>
+	<script egret="lib" src="bin-debug/gameModule/main/view/subModule/FreeSpinStartUICom.js"></script>
+	<script egret="lib" src="bin-debug/gameModule/main/view/subModule/PrizeEffectUICom.js"></script>
+	<script egret="lib" src="bin-debug/gameModule/main/view/subModule/PrizeLineUICom.js"></script>
+	<script egret="lib" src="bin-debug/gameModule/main/view/subModule/SpinAreaUICom.js"></script>
+	<script egret="lib" src="bin-debug/message/NoticeCommand.js"></script>
+	<script egret="lib" src="bin-debug/message/messageObject/GameRequestData.js"></script>
+	<script egret="lib" src="bin-debug/message/messageObject/InitializeGameRequestData.js"></script>
+	<script egret="lib" src="bin-debug/message/messageObject/PlayGameRequestData.js"></script>
+	<script egret="lib" src="bin-debug/message/messageObject/c2s/EnterGameC2S.js"></script>
+	<script egret="lib" src="bin-debug/message/messageObject/s2c/LotusSO.js"></script>
+	<script egret="lib" src="bin-debug/message/messageObject/s2c/NoticeSO.js"></script>
+	<script egret="lib" src="bin-debug/message/messageObject/s2c/PlayerDescSO.js"></script>
+	<script egret="lib" src="bin-debug/message/messageObject/s2c/RoomDatasSO.js"></script>
+	<script egret="lib" src="bin-debug/utils/ArrayUtil.js"></script>
+	<script egret="lib" src="bin-debug/utils/HashMap.js"></script>
+	<script egret="lib" src="bin-debug/utils/IFrameContainer.js"></script>
+	<script egret="lib" src="bin-debug/utils/MD5.js"></script>
+	<script egret="lib" src="bin-debug/utils/ObjectUtil.js"></script>
+	<script egret="lib" src="bin-debug/utils/ResUtil.js"></script>
+	<script egret="lib" src="bin-debug/utils/StringFilter.js"></script>
+	<script egret="lib" src="bin-debug/utils/StringHelper.js"></script>
+	<script egret="lib" src="bin-debug/utils/TextUtil.js"></script>
+	<script egret="lib" src="bin-debug/utils/WebUtil.js"></script>
+	<script egret="lib" src="bin-debug/utils/qr/QR8bitByte.js"></script>
+	<script egret="lib" src="bin-debug/utils/qr/QRBitBuffer.js"></script>
+	<script egret="lib" src="bin-debug/utils/qr/QRCode.js"></script>
+	<script egret="lib" src="bin-debug/utils/qr/QRCodeModel.js"></script>
+	<script egret="lib" src="bin-debug/utils/qr/QRErrorCorrectLevel.js"></script>
+	<script egret="lib" src="bin-debug/utils/qr/QRMaskPattern.js"></script>
+	<script egret="lib" src="bin-debug/utils/qr/QRMath.js"></script>
+	<script egret="lib" src="bin-debug/utils/qr/QRMode.js"></script>
+	<script egret="lib" src="bin-debug/utils/qr/QRPolynomial.js"></script>
+	<script egret="lib" src="bin-debug/utils/qr/QRRSBlock.js"></script>
+	<script egret="lib" src="bin-debug/utils/qr/QRUtil.js"></script>
+	<!--game_files_end-->
+</head>
+<body>
+
+<div style="margin: auto;width: 100%;height: 100%;" class="egret-player"
+     data-entry-class="Main"
+     data-orientation="landscape"
+     data-scale-mode="fixedWidth"
+     data-frame-rate="60"
+     data-content-width="1280"
+     data-content-height="720"
+     data-show-paint-rect="false"
+     data-multi-fingered="2"
+     data-show-fps="false" data-show-log="false"
+     data-show-fps-style="x:0,y:0,size:15,textColor:0xffffff,bgAlpha:0.9">
+</div>
+</body>
+</html>
+<script language="javascript">
+    var isDebug = true;
+    var gameJsVersion = (new Date()).getTime();
+    document.write("<script src='resource/js/gameEntrance.js?version=" + gameJsVersion + "'><\/script>");
+</script>

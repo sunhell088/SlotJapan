@@ -1,0 +1,36 @@
+{
+    "projectName": "autoSpin",
+    "files": [
+        "./autoSpin/autoCountBtn2.png",
+        "./autoSpin/autoCountBtn1.png",
+        "./autoSpin/autoConfirmBtnPress.png",
+        "./autoSpin/autoConfirmBtn.png",
+        "./autoSpin/autoCheckboxBG.png",
+        "./autoSpin/autoCheckbox_unselect.png",
+        "./autoSpin/autoCheckbox_select_up.png",
+        "./autoSpin/autoCheckbox_select_down.png",
+        "./autoSpin/autoCancelBtnPress.png",
+        "./autoSpin/autoCancelBtn.png",
+        "./autoSpin/autoBG4.png",
+        "./autoSpin/autoBG3.png",
+        "./autoSpin/autoBG2.png",
+        "./autoSpin/autoBG1.png",
+        "./autoSpin/auto500Btn.png",
+        "./autoSpin/auto200Btn.png",
+        "./autoSpin/auto100Btn.png",
+        "./autoSpin/auto50Btn.png",
+        "./autoSpin/auto20Btn.png",
+        "./autoSpin/autoStartBtnPress.png",
+        "./autoSpin/autoStartBtn.png",
+        "./autoSpin/autoOptionGap.png",
+        "./autoSpin/autoInputBG.png"
+    ],
+    "options": {
+        "layoutMath": "4",
+        "sizeMode": "free",
+        "useExtension": 1,
+        "layoutGap": 1,
+        "extend": 0
+    },
+    "version": 5
+}

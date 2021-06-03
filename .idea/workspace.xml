@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a4492468-c626-47b1-98a5-8e0e85189737" name="Default" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="SlotJapan" />
+  </component>
+  <component name="ProjectId" id="1XinqRGtERNLAAy3pNnWueswU2O" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="E:/work/cocosTest/ShaderDemos" />
+    <property name="settings.editor.selected.configurable" value="vcs.Subversion" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="ts.external.directory.path" value="D:\Program Files\JetBrains\WebStorm 2019.3.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/SlotJapan/index.html">
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\86181\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a4492468-c626-47b1-98a5-8e0e85189737" name="Default" comment="" />
+      <created>1551766323123</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1551766323123</updated>
+      <workItem from="1551766325767" duration="21000" />
+      <workItem from="1551767623161" duration="120000" />
+      <workItem from="1581537974083" duration="972000" />
+      <workItem from="1606106554099" duration="674000" />
+      <workItem from="1606493774062" duration="2128000" />
+      <workItem from="1606810408844" duration="5237000" />
+      <workItem from="1608519855945" duration="1227000" />
+      <workItem from="1608780562889" duration="1661000" />
+      <workItem from="1615199700569" duration="2412000" />
+      <workItem from="1615527676078" duration="8000" />
+      <workItem from="1619874708333" duration="618000" />
+      <workItem from="1622718184690" duration="1325000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="640" y="460" key="FileChooserDialogImpl" timestamp="1622720735930">
+      <screen x="0" y="0" width="3440" height="1410" />
+    </state>
+    <state x="640" y="460" key="FileChooserDialogImpl/0.0.3440.1410@0.0.3440.1410" timestamp="1622720735930" />
+    <state x="682" y="223" width="647" height="534" key="find.popup" timestamp="1619874727476">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="682" y="223" width="647" height="534" key="find.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1619874727476" />
+    <state x="1383" y="317" width="672" height="678" key="search.everywhere.popup" timestamp="1622718202830">
+      <screen x="0" y="0" width="3440" height="1410" />
+    </state>
+    <state x="1383" y="317" width="672" height="678" key="search.everywhere.popup/0.0.3440.1410@0.0.3440.1410" timestamp="1622718202830" />
+  </component>
+</project>

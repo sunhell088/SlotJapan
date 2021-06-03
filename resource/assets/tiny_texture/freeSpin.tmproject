@@ -1,0 +1,29 @@
+{
+    "projectName": "freeSpin",
+    "files": [
+        "./freeSpin/lotus1_dis.png",
+        "./freeSpin/lotus1.png",
+        "./freeSpin/freeSpinStartBG.png",
+        "./freeSpin/freeSpinSelectBG.png",
+        "./freeSpin/freeSpinCountIcon.png",
+        "./freeSpin/freeSpinAwardTotalBG.png",
+        "./freeSpin/flipTimeIcon.png",
+        "./freeSpin/countDownIcon.png",
+        "./freeSpin/countDownBtnPress.png",
+        "./freeSpin/countDownBtnDis.png",
+        "./freeSpin/countDownBtn.png",
+        "./freeSpin/wildx2.png",
+        "./freeSpin/lotus3_dis.png",
+        "./freeSpin/lotus3.png",
+        "./freeSpin/lotus2_dis.png",
+        "./freeSpin/lotus2.png"
+    ],
+    "options": {
+        "layoutMath": "4",
+        "sizeMode": "free",
+        "useExtension": 1,
+        "layoutGap": 1,
+        "extend": 0
+    },
+    "version": 5
+}

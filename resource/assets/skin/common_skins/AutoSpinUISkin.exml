@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="AutoSpinUISkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="960" height="720">
+	<e:Rect left="0" right="0" top="0" bottom="0" fillAlpha="0.45"/>
+	<e:Image source="autoBG1_png" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image source="autoBG2_png" horizontalCenter="0.5" verticalCenter="-201.5"/>
+	<e:Image source="autoBG3_png" horizontalCenter="0" verticalCenter="-211" scale9Grid="35,7,212,42" width="338"/>
+	<e:Image source="autoBG4_png" horizontalCenter="0" verticalCenter="41.5"/>
+	<e:Label id="titleLab" text="Select number of spins" fontFamily="Microsoft YaHei" bold="true" horizontalCenter="0" border="false" size="26" verticalCenter="-213"/>
+	<e:RadioButton id="count20Btn" label="20" groupName="countGroup" horizontalCenter="-200" verticalCenter="-141" selected="true" value="20">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="autoCountBtn2_png" source.down="autoCountBtn1_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" fontFamily="Microsoft YaHei" bold="true" textAlign="center" verticalAlign="middle" stroke="2" textColor="0xeeeeee"/>
+			</e:Skin>
+		</e:skinName>
+	</e:RadioButton>
+	<e:RadioButton id="count50Btn" label="50" groupName="countGroup" horizontalCenter="-98.5" verticalCenter="-142" value="50">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="autoCountBtn2_png" source.down="autoCountBtn1_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" fontFamily="Microsoft YaHei" bold="true" textAlign="center" verticalAlign="middle" stroke="2" textColor="0xeeeeee"/>
+		</e:Skin>
+		</e:skinName>
+	</e:RadioButton>
+	<e:RadioButton id="count100Btn" label="100" groupName="countGroup" horizontalCenter="1.5" verticalCenter="-142" value="100">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="autoCountBtn2_png" source.down="autoCountBtn1_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" fontFamily="Microsoft YaHei" bold="true" textAlign="center" verticalAlign="middle" stroke="2" textColor="0xeeeeee"/>
+		</e:Skin>
+		</e:skinName>
+	</e:RadioButton>
+	<e:RadioButton id="count200Btn" label="200" groupName="countGroup" horizontalCenter="101.5" verticalCenter="-142" value="200">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="autoCountBtn2_png" source.down="autoCountBtn1_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" fontFamily="Microsoft YaHei" bold="true" textAlign="center" verticalAlign="middle" stroke="2" textColor="0xeeeeee"/>
+		</e:Skin>
+		</e:skinName>
+	</e:RadioButton>
+	<e:RadioButton id="countMaxBtn" label="infinite" groupName="countGroup" horizontalCenter="205" verticalCenter="-142" value="-1">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="autoCountBtn2_png" source.down="autoCountBtn1_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" fontFamily="Microsoft YaHei" bold="true" textAlign="center" verticalAlign="middle" stroke="2" textColor="0xeeeeee"/>
+		</e:Skin>
+		</e:skinName>
+	</e:RadioButton>
+	<e:Label id="stopHintLab" text="Stop autoplay" fontFamily="Microsoft YaHei" bold="true" border="false" horizontalCenter="-158" verticalCenter="-93" size="24"/>
+	<e:CheckBox id="checkBoxFree" label="Trigger Free Spins or Bonus" horizontalCenter="17.5" verticalCenter="-44">
+		<e:skinName>
+			<e:Skin states="up,down,disabled,upAndSelected,downAndSelected,disabledAndSelected" xmlns:w="http://ns.egret.com/wing">
+			<e:Group width="100%" height="100%">
+				<e:layout>
+					<e:BasicLayout/>
+				</e:layout>
+				<e:Image fillMode="scale" alpha="1" alpha.disabled="0.5" alpha.down="0.7" source.upAndSelected="autoCheckbox_select_up_png" source.downAndSelected="autoCheckbox_select_up_png" source.disabledAndSelected="autoCheckbox_unselect_png" source="autoCheckbox_unselect_png" verticalCenter="0"/>
+				<e:Label id="labelDisplay" size="21" textAlign="center" verticalAlign="middle" fontFamily="Microsoft YaHei" textColor="0xffffff" bold="true" verticalCenter="0" x="45"/>
+				<e:Image id="selectBG" source="autoCheckboxBG_png" verticalCenter="0" visible="false"/>
+			</e:Group>
+			</e:Skin>
+		</e:skinName>
+	</e:CheckBox>
+	<e:CheckBox id="checkBoxSingle" label="Single win exceeds" horizontalCenter="17.5" verticalCenter="12">
+		<e:skinName>
+		<e:Skin states="up,down,disabled,upAndSelected,downAndSelected,disabledAndSelected" xmlns:w="http://ns.egret.com/wing">
+			<e:Group width="100%" height="100%">
+			<e:layout>
+				<e:BasicLayout/>
+			</e:layout>
+			<e:Image fillMode="scale" alpha="1" alpha.disabled="0.5" alpha.down="0.7" source.upAndSelected="autoCheckbox_select_up_png" source.downAndSelected="autoCheckbox_select_up_png" source.disabledAndSelected="autoCheckbox_unselect_png" source="autoCheckbox_unselect_png" verticalCenter="0"/>
+			<e:Label id="labelDisplay" size="20" textAlign="center" verticalAlign="middle" fontFamily="Microsoft YaHei" textColor="0xffffff" bold="true" verticalCenter="0" x="45"/>
+			<e:Image id="selectBG" source="autoCheckboxBG_png" verticalCenter="0" visible="false"/>
+			</e:Group>
+		</e:Skin>
+		</e:skinName>
+	</e:CheckBox>
+	<e:CheckBox id="checkBoxAdd" label="Cash increases by" horizontalCenter="17.5" verticalCenter="68">
+		<e:skinName>
+		<e:Skin states="up,down,disabled,upAndSelected,downAndSelected,disabledAndSelected" xmlns:w="http://ns.egret.com/wing">
+			<e:Group width="100%" height="100%">
+			<e:layout>
+				<e:BasicLayout/>
+			</e:layout>
+			<e:Image fillMode="scale" alpha="1" alpha.disabled="0.5" alpha.down="0.7" source.upAndSelected="autoCheckbox_select_up_png" source.downAndSelected="autoCheckbox_select_up_png" source.disabledAndSelected="autoCheckbox_unselect_png" source="autoCheckbox_unselect_png" verticalCenter="0"/>
+			<e:Label id="labelDisplay" size="20" textAlign="center" verticalAlign="middle" fontFamily="Microsoft YaHei" textColor="0xffffff" bold="true" verticalCenter="0" x="45"/>
+			<e:Image id="selectBG" source="autoCheckboxBG_png" verticalCenter="0" visible="false"/>
+			</e:Group>
+		</e:Skin>
+		</e:skinName>
+	</e:CheckBox>
+	<e:CheckBox id="checkBoxDeduct" label="Cash decreases" horizontalCenter="17.5" verticalCenter="124">
+		<e:skinName>
+		<e:Skin states="up,down,disabled,upAndSelected,downAndSelected,disabledAndSelected" xmlns:w="http://ns.egret.com/wing">
+			<e:Group width="100%" height="100%">
+			<e:layout>
+				<e:BasicLayout/>
+			</e:layout>
+			<e:Image fillMode="scale" alpha="1" alpha.disabled="0.5" alpha.down="0.7" source.upAndSelected="autoCheckbox_select_up_png" source.downAndSelected="autoCheckbox_select_up_png" source.disabledAndSelected="autoCheckbox_unselect_png" source="autoCheckbox_unselect_png" verticalCenter="0"/>
+			<e:Label id="labelDisplay" size="20" textAlign="center" verticalAlign="middle" fontFamily="Microsoft YaHei" textColor="0xffffff" bold="true" verticalCenter="0" x="45"/>
+			<e:Image id="selectBG" source="autoCheckboxBG_png" verticalCenter="0" visible="false"/>
+			</e:Group>
+		</e:Skin>
+		</e:skinName>
+	</e:CheckBox>
+	<e:Image source="autoOptionGap_png" horizontalCenter="-5" verticalCenter="-16"/>
+	<e:Image source="autoOptionGap_png" horizontalCenter="-5" verticalCenter="40"/>
+	<e:Image source="autoOptionGap_png" verticalCenter="96" horizontalCenter="-5"/>
+	<e:Button id="cancelBtn" label="" horizontalCenter="-111" verticalCenter="194">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="autoCancelBtn_png" source.down="autoCancelBtnPress_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="startBtn" label="" horizontalCenter="128" verticalCenter="194">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="autoStartBtn_png" source.down="autoStartBtnPress_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:TextInput id="inputSingle" width="220" height="31" maxChars="12" restrict="0-9" horizontalCenter="161" verticalCenter="12.5">
+		<e:skinName>
+			<e:Skin minHeight="40" minWidth="300" states="normal,disabled,normalWithPrompt,disabledWithPrompt">
+			<e:Image width="100%" height="100%" source="autoInputBG_png" scale9Grid="9,7,137,17"/>
+			<e:EditableText id="textDisplay" verticalCenter="4" left="10" right="10" textColor.disabled="0xff0000" width="100%" height="26" size="20" textColor="0xffffff"/>
+			<e:Label id="promptDisplay" verticalCenter="3" left="10" right="10" textColor="0xa9a9a9" width="100%" height="26" size="20" touchEnabled="false" includeIn="normalWithPrompt,disabledWithPrompt" fontFamily="Microsoft YaHei"/>
+			</e:Skin>
+		</e:skinName>
+	</e:TextInput>
+	<e:TextInput id="inputAdd" width="220" height="31" maxChars="12" restrict="0-9" horizontalCenter="161" verticalCenter="68.5">
+		<e:skinName>
+			<e:Skin minHeight="40" minWidth="300" states="normal,disabled,normalWithPrompt,disabledWithPrompt">
+			<e:Image width="100%" height="100%" source="autoInputBG_png" scale9Grid="9,7,137,17"/>
+			<e:EditableText id="textDisplay" verticalCenter="4" left="10" right="10" textColor.disabled="0xff0000" width="100%" height="26" size="20" textColor="0xffffff"/>
+			<e:Label id="promptDisplay" verticalCenter="3" left="10" right="10" textColor="0xa9a9a9" width="100%" height="26" size="20" touchEnabled="false" includeIn="normalWithPrompt,disabledWithPrompt" fontFamily="Microsoft YaHei"/>
+			</e:Skin>
+		</e:skinName>
+	</e:TextInput>
+	<e:TextInput id="inputDeduct" width="220" height="31" maxChars="12" restrict="0-9" verticalCenter="124.5" horizontalCenter="161">
+		<e:skinName>
+			<e:Skin minHeight="40" minWidth="300" states="normal,disabled,normalWithPrompt,disabledWithPrompt">
+			<e:Image width="100%" height="100%" source="autoInputBG_png" scale9Grid="9,7,137,17"/>
+			<e:EditableText id="textDisplay" verticalCenter="4" left="10" right="10" textColor.disabled="0xff0000" width="100%" height="26" size="20" textColor="0xffffff"/>
+			<e:Label id="promptDisplay" verticalCenter="3" left="10" right="10" textColor="0xa9a9a9" width="100%" height="26" size="20" touchEnabled="false" includeIn="normalWithPrompt,disabledWithPrompt" fontFamily="Microsoft YaHei"/>
+			</e:Skin>
+		</e:skinName>
+	</e:TextInput>
+	<e:Label id="currencyType1" text="Cerdit" fontFamily="Microsoft YaHei" size="20" horizontalCenter="18" verticalCenter="13" touchEnabled="false"/>
+	<e:Label id="currencyType2" text="Cerdit" fontFamily="Microsoft YaHei" size="20" horizontalCenter="18" verticalCenter="69" touchEnabled="false"/>
+	<e:Label id="currencyType3" text="Cerdit" fontFamily="Microsoft YaHei" size="20" horizontalCenter="18" verticalCenter="125" touchEnabled="false"/>
+</e:Skin>

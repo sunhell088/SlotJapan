@@ -1,0 +1,18 @@
+{
+    "projectName": "help",
+    "files": [
+        "./help/pageLeft.png",
+        "./help/helpInfo2.png",
+        "./help/helpInfo1.png",
+        "./help/helpCloseBtn.png",
+        "./help/pageRight.png"
+    ],
+    "options": {
+        "layoutMath": "4",
+        "sizeMode": "free",
+        "useExtension": 1,
+        "layoutGap": 1,
+        "extend": 0
+    },
+    "version": 5
+}

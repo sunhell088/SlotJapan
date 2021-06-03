@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HelpUISkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="page0,page1"  width="960" height="720">
+	<e:Rect fillAlpha="0.5" left="0" right="0" top="0" bottom="0"/>
+	<e:Group scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0">
+		<e:Image scaleX="1" scaleY="1" source="helpInfo1_png" horizontalCenter="0" verticalCenter="0" visible.page1="false"/>
+		<e:Image scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" source="helpInfo2_png" visible.page0="false"/>
+		<e:Button id="closeBtn" label="" horizontalCenter="348.5" verticalCenter="-202.5">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="helpCloseBtn_png" source.down="helpCloseBtn_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image source="pageLeft_png" visible.page0="false" x="-79" y="205"/>
+		<e:Rect id="leftPage" width="281.33" height="103.33" anchorOffsetX="0" anchorOffsetY="0" alpha="0.01" left="-116" visible.page0="false" verticalCenter="0"/>
+		<e:Image source="pageRight_png" right="-81" verticalCenter="0.5" visible.page1="false"/>
+		<e:Rect id="rightPage" width="218.33" height="102.33" anchorOffsetX="0" anchorOffsetY="0" alpha="0.01" right="-129" verticalCenter="-0.5" visible.page1="false"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LotusUIComSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"     states="1,2,3" >
+	<e:Button id="bgBtn3" label="" includeIn="3" horizontalCenter="0" verticalCenter="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="lotus3_png" source.disabled="lotus3_dis_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="bgBtn2" label="" includeIn="2" verticalCenter="0" horizontalCenter="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="lotus2_png" source.disabled="lotus2_dis_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="bgBtn1" label="" horizontalCenter="0" verticalCenter="0" includeIn="1">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="lotus1_png" source.disabled="lotus1_dis_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:BitmapLabel id="countLab" text="5" font="flipTime_fnt" horizontalCenter="0" verticalCenter="-33.5"/>
+	<e:Image id="typeImg" source="freeSpinCountIcon_png" horizontalCenter="0" verticalCenter="27.5"/>
+</e:Skin>

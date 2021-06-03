@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BigWinSkin" width="960" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Rect id="bgRect" left="0" right="0" top="0" bottom="0" fillAlpha="0.2" fillColor="0xffffff"/>
+	<e:Group id="animationGroup" width="960" height="720" horizontalCenter="0" verticalCenter="-41" scaleX="0.8" scaleY="0.8">
+		<e:Image id="awardLabBG" source="bigWinBG_png" horizontalCenter="0.5" verticalCenter="209" scaleX="0.8" scaleY="0.8" scale9Grid="75,16,457,98"/>
+		<ns1:BounceBitmapLabel id="awardLab" text="12345167" letterSpacing="-5" textAlign="center" horizontalCenter="0.5" verticalCenter="214.5" x="326" y="423" font="font_number_slots_bigwin_fnt" scaleX="0.8" scaleY="0.8"/>
+	</e:Group>
+</e:Skin>

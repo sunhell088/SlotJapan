@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FreeSpinSelectUISkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*" xmlns:ns1="*" width="1136" height="640">
+	<w:Declarations>
+	</w:Declarations>
+	<e:Rect left="0" right="0" top="0" bottom="0" fillAlpha="0.45"/>
+	<e:Group id="selectGroup" horizontalCenter="0" verticalCenter="0">
+		<e:Group id="bgGroup" horizontalCenter="0" verticalCenter="0">
+			<e:Image id="bg" source="freeSpinSelectBG_png" horizontalCenter="0" verticalCenter="0" x="-662" y="-406"/>
+			<e:Group id="countDownGroup" horizontalCenter="6.5" verticalCenter="-260.5" x="450" y="371" scaleX="1" scaleY="1">
+				<e:Image id="countDownIcon" anchorOffsetX="36.5" anchorOffsetY="36.5" source="countDownIcon_png" scaleX="1" scaleY="1" verticalCenter="0" horizontalCenter="17"/>
+				<e:BitmapLabel id="countDownLab" text="11" letterSpacing="-8" textAlign="center" font="winNum_fnt" scaleX="1" scaleY="1" verticalCenter="-1" horizontalCenter="-104.5"/>
+			</e:Group>
+			<e:Group id="lotusGroup" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0.5" verticalCenter="48">
+				<ns1:LotusUICom id="selectBtn0" x="149" y="107" skinName="LotusUIComSkin"/>
+				<ns1:LotusUICom id="selectBtn1" x="149" y="107" skinName="LotusUIComSkin"/>
+				<ns1:LotusUICom id="selectBtn2" x="149" y="107" skinName="LotusUIComSkin"/>
+				<ns1:LotusUICom id="selectBtn3" x="149" y="107" skinName="LotusUIComSkin"/>
+				<ns1:LotusUICom id="selectBtn4" x="149" y="107" skinName="LotusUIComSkin"/>
+				<ns1:LotusUICom id="selectBtn5" x="149" y="107" skinName="LotusUIComSkin"/>
+				<ns1:LotusUICom id="selectBtn6" x="149" y="107" skinName="LotusUIComSkin"/>
+				<ns1:LotusUICom id="selectBtn7" x="149" y="107" skinName="LotusUIComSkin"/>
+				<ns1:LotusUICom id="selectBtn8" x="149" y="107" skinName="LotusUIComSkin"/>
+				<ns1:LotusUICom id="selectBtn9" x="149" y="107" skinName="LotusUIComSkin"/>
+				<ns1:LotusUICom id="selectBtn10" x="149" y="107" skinName="LotusUIComSkin"/>
+				<ns1:LotusUICom id="selectBtn11" x="149" y="107" skinName="LotusUIComSkin"/>
+				<e:layout>
+					<e:TileLayout orientation="rows" requestedRowCount="3" requestedColumnCount="4" rowHeight="108" columnWidth="144" horizontalGap="6" verticalGap="6"/>
+				</e:layout>
+			</e:Group>
+			<e:BitmapLabel id="flipTimeLab" text="1" horizontalCenter="-398.5" verticalCenter="-160.5" font="freespinCount_fnt" letterSpacing="-20" scaleX="0.5" scaleY="0.5"/>
+			<e:BitmapLabel id="freeSpinTimeLab" text="1" horizontalCenter="400.5" verticalCenter="-160.5" scaleX="0.5" scaleY="0.5" font="freespinCount_fnt" letterSpacing="-20"/>
+		</e:Group>
+	</e:Group>
+	<e:Image id="flowerLeft" source="flower_png" verticalCenter="-173" left="0"/>
+	<e:Image id="flowerRight" source="flower_png" verticalCenter="-173" y="10" scaleX="-1" right="0"/>
+</e:Skin>

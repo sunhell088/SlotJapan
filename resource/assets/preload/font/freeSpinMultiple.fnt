@@ -1,0 +1,9 @@
+{"file":"freeSpinMultiple.png","frames":{
+"x":{"x":134,"y":210,"w":71,"h":83,"offX":2,"offY":12,"sourceW":75,"sourceH":107},
+"0":{"x":154,"y":104,"w":66,"h":104,"offX":6,"offY":1,"sourceW":75,"sourceH":107},
+"1":{"x":68,"y":210,"w":64,"h":101,"offX":2,"offY":2,"sourceW":75,"sourceH":107},
+"4":{"x":154,"y":1,"w":71,"h":101,"offX":1,"offY":2,"sourceW":75,"sourceH":107},
+"2":{"x":77,"y":106,"w":67,"h":102,"offX":4,"offY":2,"sourceW":75,"sourceH":107},
+"3":{"x":1,"y":1,"w":74,"h":107,"offX":0,"offY":0,"sourceW":75,"sourceH":107},
+"5":{"x":77,"y":1,"w":75,"h":103,"offX":0,"offY":2,"sourceW":75,"sourceH":107},
+"7":{"x":1,"y":110,"w":65,"h":100,"offX":5,"offY":3,"sourceW":75,"sourceH":107}}}

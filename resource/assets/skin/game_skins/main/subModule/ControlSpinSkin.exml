@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ControlSpinSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image source="winIcon_png" horizontalCenter="-36" verticalCenter="23.5"/>
+	<e:Image source="balanceIcon_png" horizontalCenter="-391" verticalCenter="-15.5"/>
+	<ns1:BounceBitmapLabel id="winLab" text="99999999999.99" letterSpacing="-7"  width="288" height="29" textAlign="center" horizontalCenter="-33" verticalCenter="40.5" scaleX="1" scaleY="1" font="winTotalFont_fnt"/>
+	<e:Label id="balanceTypeLab" text="CNY:" textColor="0xc5b898" fontFamily="Microsoft YaHei" size="18" horizontalCenter="-426" verticalCenter="-18"/>
+	<ns1:BounceLabel id="balanceLab" text="99999999999.99" fontFamily="Microsoft YaHei" size="18" textAlign="left" width="161" height="22" touchEnabled="false" textColor="0xC5B898" strokeColor="0x5d1f0b" anchorOffsetX="0" horizontalCenter="-317.5" verticalCenter="-16"/>
+	<e:Image source="deskIcon_png" horizontalCenter="457.5" verticalCenter="53.5"/>
+	<e:Image source="perLineWagerIcon_png" horizontalCenter="-324.5" verticalCenter="48"/>
+	<e:Label id="wagerPerLineLab" text="99999" fontFamily="Microsoft YaHei" size="20" textColor="0xC5B898" horizontalCenter="-322.5" verticalCenter="59"/>
+	<e:Button id="wagerDeDuctBtn" label="" horizontalCenter="-414.5" verticalCenter="47">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="deductBtn_png" source.down="deductBtnPress_png" source.disabled="deductBtnDis_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="wagerPlusBtn" label="" horizontalCenter="-235.5" verticalCenter="47">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="plusBtn_png" source.down="plusBtnPress_png" source.disabled="plusBtnDis_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="payTableBtn" label="" horizontalCenter="-497.5" verticalCenter="47">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="Paytable_btn_png" source.down="Paytable_btn_press_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image source="totalWagerIconBG_png" horizontalCenter="279.5" verticalCenter="-17"/>
+	<e:Image id="totalWagerIcon" source="totalWagerIcon_png" verticalCenter="-20.5" horizontalCenter="213"/>
+	<e:Label id="totalWagerLab" text="99999.99" textColor="0xC5B898" fontFamily="Microsoft YaHei" size="20" horizontalCenter="310.5" verticalCenter="-20"/>
+	<e:Image id="freeSpinIcon" source="freeSpinSelectCount_png" verticalCenter="-21" horizontalCenter="240.5"/>
+	<e:BitmapLabel id="freespinCountLab" width="200" font="reward_fnt" verticalCenter="-20" horizontalCenter="338" text="99" textAlign="center" scaleX="0.48" scaleY="0.48"/>
+	<e:Button id="autoSpinBtn" label="" horizontalCenter="320" verticalCenter="48.5">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="autoSpinIcon_png" source.down="autoSpinIconPress_png" source.disabled="autoSpinIconDis_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="stopAutoSpinBtn" label="" horizontalCenter="320" verticalCenter="48.5">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="stopAutoSpinIcon_png" source.down="stopAutoSpinIconPress_png"/>
+			<e:Label id="autoCountLab" text="200" fontFamily="Microsoft YaHei" size="24" textColor="0xC5B898" horizontalCenter="0" verticalCenter="25" textAlign="center"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="maxWagerBtn" label="" horizontalCenter="209" verticalCenter="48.5">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="fullWagerBtn_png" source.down="fullWagerBtn_press_png" source.disabled="fullWagerBtn_Dis_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="stopSpinBtn" label="" horizontalCenter="498" verticalCenter="-4.5">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="stopIcon_png" source.down="stopIconPress_png" source.disabled="stopIconDisable_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="startSpinBtn" label="" horizontalCenter="498" verticalCenter="-4.5">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="startIcon_png" source.down="startIconPress_png" source.disabled="startIconDisable_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

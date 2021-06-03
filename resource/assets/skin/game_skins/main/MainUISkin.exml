@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MainUISkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="1136" height="640">
+
+	<ns1:SpinAreaUICom id="spinAreaUICom" skinName="SpinAreaSkin" horizontalCenter="0" verticalCenter="0"/>
+	<ns1:ControlSpinUICom id="controlSpinUICom" skinName="ControlSpinSkin" horizontalCenter="0" verticalCenter="231"/>
+	<ns1:FreeSpinResultUICom id="freeSpinResultUICom" skinName="FreeSpinResultSkin" horizontalCenter="0" verticalCenter="0" visible="false"/>
+	<ns1:FreeSpinStartUICom id="freeSpinStartUICom" skinName="FreeSpinStartSkin" horizontalCenter="0" verticalCenter="0" visible="false"/>
+	<ns1:PrizeEffectUICom id="prizeEffectUICom" skinName="PrizeEffectSkin" touchEnabled="false" left="0" right="0" top="0" bottom="0" visible="false"/>
+	<ns1:SettingUICom skinName="SettingSkin" right="0" verticalCenter="-30"/>
+</e:Skin>

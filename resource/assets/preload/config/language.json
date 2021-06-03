@@ -1,0 +1,31 @@
+{
+  "common": {
+    "copy2Clipboard succuss": "复制成功",
+    "operation_error_invalid_session": "操作失败（您的帐号验证信息错误，请到平台退出您的帐号后，再重新登录一次）",
+    "url error": "Url配置错误，address={0}",
+    "server_disconnect": "你与服务器的连接已断开",
+    "server_connect_fail": "与服务器连接失败，address={0}",
+    "connect is break": "和服务器连接已经断开, 无法发送消息！",
+    "invalid session": "帐号验证信息错误，请到平台退出您的帐号后，再次登录",
+    "server_reconnect": "重新连接到服务器成功",
+    "server_reconnecting": "您的网络出现异常，连接已断开（正在自动连接中……）",
+    "account login by other": "您的账号在另一个设备登陆",
+    "s2c_data_relogin_by_time": "由于您长时间未进行游戏，为保证账号安全，请重新登录",
+    "httpRequestError": "您的网络通讯出现了问题",
+    "httpRequestError_resend": "正在为您自动重连中\n（如多次重连失败，请检查您的网络状况）",
+    "s2c_data_error": "网络异常，请重新登录",
+
+
+    "moneyNotEnough": "金额不足，请您充值！",
+    "credits": "积分",
+    "autoSpinInputPrompt": "请输入金额数",
+    "autoSpinMax": "∞",
+    "Select number of spins": "请选择自动游戏次数",
+    "infinite": "无限",
+    "Stop autoplay": "下列情况停止自动游戏",
+    "Trigger Free Spins or Bonus": "触发免费游戏或特色游戏",
+    "Single win exceeds": "单次赢超过",
+    "Cash increases by": "余额增加",
+    "Cash decreases": "余额减少"
+  }
+}
